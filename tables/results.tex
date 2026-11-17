@@ -1,0 +1,46 @@
+\begin{tabular}{llllll}
+\toprule
+environment & algorithm & cost ratio & expanded & peak open & time (ms) \\
+\midrule
+Random 10x10, 4-conn & Dijkstra & 1.00 $\pm$ 0.00 & 36 $\pm$ 20 & 9 $\pm$ 3 & 0.19 $\pm$ 0.12 \\
+Random 10x10, 4-conn & BFS & 1.00 $\pm$ 0.00 & 36 $\pm$ 20 & 9 $\pm$ 3 & 0.10 $\pm$ 0.14 \\
+Random 10x10, 4-conn & Greedy & 1.01 $\pm$ 0.06 & 9 $\pm$ 6 & 9 $\pm$ 3 & 0.06 $\pm$ 0.03 \\
+Random 10x10, 4-conn & A* & 1.00 $\pm$ 0.00 & 10 $\pm$ 7 & 9 $\pm$ 3 & 0.06 $\pm$ 0.04 \\
+Random 10x10, 8-conn & Dijkstra & 1.00 $\pm$ 0.00 & 38 $\pm$ 21 & 12 $\pm$ 4 & 0.22 $\pm$ 0.12 \\
+Random 10x10, 8-conn & BFS & 1.02 $\pm$ 0.04 & 39 $\pm$ 22 & 12 $\pm$ 4 & 0.08 $\pm$ 0.04 \\
+Random 10x10, 8-conn & Greedy & 1.04 $\pm$ 0.08 & 8 $\pm$ 6 & 11 $\pm$ 5 & 0.08 $\pm$ 0.05 \\
+Random 10x10, 8-conn & A* & 1.00 $\pm$ 0.00 & 12 $\pm$ 12 & 11 $\pm$ 5 & 0.10 $\pm$ 0.09 \\
+Maze 10x10, 4-conn & Dijkstra & 1.00 $\pm$ 0.00 & 16 $\pm$ 8 & 2 $\pm$ 1 & 0.07 $\pm$ 0.05 \\
+Maze 10x10, 4-conn & BFS & 1.00 $\pm$ 0.00 & 16 $\pm$ 8 & 2 $\pm$ 1 & 0.04 $\pm$ 0.02 \\
+Maze 10x10, 4-conn & Greedy & 1.00 $\pm$ 0.00 & 12 $\pm$ 8 & 3 $\pm$ 1 & 0.06 $\pm$ 0.04 \\
+Maze 10x10, 4-conn & A* & 1.00 $\pm$ 0.00 & 13 $\pm$ 9 & 3 $\pm$ 1 & 0.06 $\pm$ 0.04 \\
+Random 50x50, 4-conn & Dijkstra & 1.00 $\pm$ 0.00 & 860 $\pm$ 528 & 44 $\pm$ 14 & 4.93 $\pm$ 3.10 \\
+Random 50x50, 4-conn & BFS & 1.00 $\pm$ 0.00 & 860 $\pm$ 528 & 44 $\pm$ 14 & 1.78 $\pm$ 1.15 \\
+Random 50x50, 4-conn & Greedy & 1.08 $\pm$ 0.16 & 52 $\pm$ 29 & 41 $\pm$ 18 & 0.35 $\pm$ 0.19 \\
+Random 50x50, 4-conn & A* & 1.00 $\pm$ 0.00 & 134 $\pm$ 160 & 57 $\pm$ 43 & 0.89 $\pm$ 1.11 \\
+Random 50x50, 8-conn & Dijkstra & 1.00 $\pm$ 0.00 & 956 $\pm$ 562 & 64 $\pm$ 21 & 6.69 $\pm$ 4.07 \\
+Random 50x50, 8-conn & BFS & 1.03 $\pm$ 0.03 & 944 $\pm$ 564 & 61 $\pm$ 20 & 2.28 $\pm$ 1.45 \\
+Random 50x50, 8-conn & Greedy & 1.10 $\pm$ 0.10 & 43 $\pm$ 23 & 52 $\pm$ 25 & 0.42 $\pm$ 0.23 \\
+Random 50x50, 8-conn & A* & 1.00 $\pm$ 0.00 & 182 $\pm$ 166 & 78 $\pm$ 45 & 1.74 $\pm$ 1.64 \\
+Maze 50x50, 4-conn & Dijkstra & 1.00 $\pm$ 0.00 & 576 $\pm$ 372 & 17 $\pm$ 6 & 2.97 $\pm$ 2.03 \\
+Maze 50x50, 4-conn & BFS & 1.00 $\pm$ 0.00 & 576 $\pm$ 372 & 17 $\pm$ 6 & 1.17 $\pm$ 0.78 \\
+Maze 50x50, 4-conn & Greedy & 1.07 $\pm$ 0.10 & 200 $\pm$ 166 & 16 $\pm$ 7 & 1.06 $\pm$ 0.90 \\
+Maze 50x50, 4-conn & A* & 1.00 $\pm$ 0.00 & 376 $\pm$ 323 & 15 $\pm$ 6 & 2.10 $\pm$ 1.82 \\
+Random 100x100, 4-conn & Dijkstra & 1.00 $\pm$ 0.00 & 3144 $\pm$ 1950 & 82 $\pm$ 27 & 19.42 $\pm$ 12.66 \\
+Random 100x100, 4-conn & BFS & 1.00 $\pm$ 0.00 & 3144 $\pm$ 1950 & 82 $\pm$ 27 & 6.91 $\pm$ 4.49 \\
+Random 100x100, 4-conn & Greedy & 1.14 $\pm$ 0.12 & 88 $\pm$ 45 & 74 $\pm$ 36 & 0.63 $\pm$ 0.33 \\
+Random 100x100, 4-conn & A* & 1.00 $\pm$ 0.00 & 374 $\pm$ 367 & 120 $\pm$ 90 & 2.82 $\pm$ 2.85 \\
+Random 100x100, 8-conn & Dijkstra & 1.00 $\pm$ 0.00 & 3613 $\pm$ 1953 & 125 $\pm$ 40 & 26.23 $\pm$ 14.34 \\
+Random 100x100, 8-conn & BFS & 1.04 $\pm$ 0.03 & 3610 $\pm$ 1971 & 120 $\pm$ 39 & 8.90 $\pm$ 4.97 \\
+Random 100x100, 8-conn & Greedy & 1.12 $\pm$ 0.09 & 81 $\pm$ 43 & 92 $\pm$ 42 & 0.87 $\pm$ 0.47 \\
+Random 100x100, 8-conn & A* & 1.00 $\pm$ 0.00 & 618 $\pm$ 572 & 151 $\pm$ 77 & 5.93 $\pm$ 5.44 \\
+Maze 100x100, 4-conn & Dijkstra & 1.00 $\pm$ 0.00 & 2698 $\pm$ 1349 & 47 $\pm$ 15 & 13.43 $\pm$ 7.56 \\
+Maze 100x100, 4-conn & BFS & 1.00 $\pm$ 0.00 & 2698 $\pm$ 1349 & 47 $\pm$ 15 & 5.11 $\pm$ 2.83 \\
+Maze 100x100, 4-conn & Greedy & 1.17 $\pm$ 0.14 & 228 $\pm$ 109 & 28 $\pm$ 11 & 1.11 $\pm$ 0.51 \\
+Maze 100x100, 4-conn & A* & 1.00 $\pm$ 0.00 & 1164 $\pm$ 951 & 42 $\pm$ 20 & 6.27 $\pm$ 5.69 \\
+Cork roads (length) & Dijkstra & 1.00 $\pm$ 0.00 & 4981 $\pm$ 2973 & 128 $\pm$ 43 & 26.87 $\pm$ 17.47 \\
+Cork roads (length) & BFS & 1.40 $\pm$ 0.45 & 5111 $\pm$ 2603 & 315 $\pm$ 113 & 9.51 $\pm$ 5.39 \\
+Cork roads (length) & Greedy & 1.22 $\pm$ 0.19 & 194 $\pm$ 296 & 63 $\pm$ 28 & 1.58 $\pm$ 2.25 \\
+Cork roads (length) & A* & 1.00 $\pm$ 0.00 & 1286 $\pm$ 920 & 115 $\pm$ 57 & 10.12 $\pm$ 8.22 \\
+\bottomrule
+\end{tabular}

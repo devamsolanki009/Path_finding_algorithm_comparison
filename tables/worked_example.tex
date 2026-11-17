@@ -1,0 +1,11 @@
+\begin{tabular}{rlrrrll}
+\toprule
+step & popped & g & h & f & action & open list after \\
+\midrule
+1 & S & 0.00 & 6.08 & 6.08 & expand & A (f=6.63), B (f=6.92) \\
+2 & A & 2.60 & 4.03 & 6.63 & expand & B (f=6.92), C (f=8.10), D (f=9.10) \\
+3 & B & 2.00 & 4.92 & 6.92 & expand & D (f=7.50), C (f=8.10), D (f=9.10, stale) \\
+4 & D & 5.00 & 2.50 & 7.50 & expand & G (f=8.00), C (f=8.10), D (f=9.10, stale) \\
+5 & G & 8.00 & 0.00 & 8.00 & goal reached & C (f=8.10), D (f=9.10, stale) \\
+\bottomrule
+\end{tabular}
